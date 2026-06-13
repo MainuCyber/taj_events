@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Taj Events & Decors - Premium, classic, and luxury event planning and decoration services for weddings, corporate galas, birthdays, and traditional ceremonies.">
+  <meta name="keywords" content="event planner, wedding decor, corporate events, birthday styling, traditional ceremonies, light theme luxury events">
+  <title>Taj Events & Decors | Luxury Event Planning & Design</title>
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- --- Header / Navigation --- -->
+  <header id="main-header">
+    <div class="navbar">
+      <a href="#home" class="logo-container" id="nav-logo-link">
+        <img src="assets/images/LOGO.jpeg" alt="Taj Events Logo" class="logo-img">
+        <div class="logo-text">
+          TAJ EVENTS
+          <span>Decors & Planning</span>
+        </div>
+      </a>
+      
+      <button class="hamburger" aria-label="Toggle NavigationMenu" id="mobile-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu-list">
+        <li><a href="#home" class="nav-link active" id="link-home">Home</a></li>
+        <li><a href="#about" class="nav-link" id="link-about">About Us</a></li>
+        <li><a href="#services" class="nav-link" id="link-services">Services</a></li>
+        <li><a href="#gallery" class="nav-link" id="link-gallery">Gallery</a></li>
+        <li><a href="#documents" class="nav-link" id="link-docs">Brochures</a></li>
+        <li><a href="#contact" class="nav-link" id="link-contact">Contact</a></li>
+        <li><a href="#contact" class="btn-classic btn-solid" style="padding: 0.6rem 1.4rem; font-size: 0.75rem;" id="btn-book-nav">Book Quote</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- --- Hero Section --- -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="assets/images/TAJ_JSW.jpeg" alt="Luxurious Golden Wedding Stage Setup" class="hero-bg-zoom">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle">Making Every Moment Classic</p>
+      <h1 class="hero-title">
+        TAJ EVENTS & DECORS
+        <span>EXQUISITE CELEBRATIONS TAILORED FOR YOU</span>
+      </h1>
+      <div class="gold-line"></div>
+      <a href="#contact" class="btn-classic" id="hero-cta-btn">Begin Planning</a>
+    </div>
+  </section>
+
+  <!-- --- About Us Section --- -->
+  <section class="about section-padding reveal" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <div class="logo-text" style="margin-bottom: 0.5rem;">TAJ EVENTS</div>
+          <h3>Crafting Experiences of Pure Elegance and Joy</h3>
+          <div class="gold-line-left"></div>
+          <p>
+            For over a 6+, Taj Events has been the premier choice for clients seeking sophisticated, timeless, and perfectly orchestrated celebrations. From intimate engagements to grand corporate galas, our team of dedicated designers transforms blank canvases into breathtaking visual narratives.
+          </p>
+          <p>
+            We believe that every detail matters. We hand-select premium draperies, design bespoke floral arrangements, curate majestic lighting schemes, and customize structural elements to reflect your personal story or corporate brand. 
+          </p>
+          
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-number" id="stat-count-events">500+</div>
+              <div class="stat-label">Events Managed</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" id="stat-count-years">6+</div>
+              <div class="stat-label">Years of Elegance</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-images">
+          <img src="assets/images/p6.png" alt="Traditional Ceremony Mandap Stage" class="about-img-main">
+          <img src="assets/images/p1.png" alt="Chic Outdoor Dinner Settings" class="about-img-sub">
+          <div class="about-badge" id="badge-years">
+            <span>6+</span> YEARS
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Services Section --- -->
+  <section class="services section-padding reveal" id="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Services</h2>
+        <p>Premium Design & Decoration Offerings</p>
+        <div class="gold-line"></div>
+      </div>
+      
+      <div class="services-grid">
+        <!-- Service 1: Weddings -->
+        <div class="service-card" id="service-wedding">
+          <div class="service-icon">
+            <!-- Ring/Arch Premium Inline SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22a8 8 0 1 0 0-16 8 8 0 0 0 0 16z"/>
+              <path d="M12 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              <path d="M8 12c.5 1.5 2 2.5 4 2.5s3.5-1 4-2.5"/>
+            </svg>
+          </div>
+          <h3>Weddings & Engagements</h3>
+          <p>Royal stages, floral walkthroughs, grand entrances, and luxurious mandaps themed to perfection.</p>
+        </div>
+
+        <!-- Service 2: Corporate -->
+        <div class="service-card" id="service-corporate">
+          <div class="service-icon">
+            <!-- Business/Podium Premium Inline SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+            </svg>
+          </div>
+          <h3>Corporate Galas</h3>
+          <p>Sleek and professional backdrops, VIP seating setups, custom lighting, and stage branding layout.</p>
+        </div>
+
+        <!-- Service 3: Birthdays -->
+        <div class="service-card" id="service-birthday">
+          <div class="service-icon">
+            <!-- Cake/Balloon Premium Inline SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 20v2H6v-2"/>
+              <rect x="4" y="10" width="16" height="10" rx="2"/>
+              <path d="M12 10V4M10 4h4"/>
+              <path d="M8 10V8a4 4 0 0 1 8 0v2"/>
+            </svg>
+          </div>
+          <h3>Social Celebrations</h3>
+          <p>Vibrant balloon arches, customized photo-booths, elegant dessert counter designs for birthdays and anniversaries.</p>
+        </div>
+
+        <!-- Service 4: Traditional -->
+        <div class="service-card" id="service-traditional">
+          <div class="service-icon">
+            <!-- Sparkles/Traditional Lamp Premium Inline SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3v1m0 16v1M4 12H3m18 0h-1m-2.5-5.5l-.7.7M6.2 17.8l-.7.7m0-13l.7.7m10.6 11.6l.7.7"/>
+              <circle cx="12" cy="12" r="4"/>
+            </svg>
+          </div>
+          <h3>Traditional Ceremonies</h3>
+          <p>Rich and colorful set designs for traditional rituals, Haldi stages, Mehndi seating, and custom floral backdrops.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Gallery Section --- -->
+  <section class="gallery section-padding reveal" id="gallery">
+    <div class="container">
+      <div class="section-title">
+        <h2>Exquisite Portfolio</h2>
+        <p>A Visual Journey of Our Handcrafted Events</p>
+        <div class="gold-line"></div>
+      </div>
+
+      <!-- Filters -->
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all" id="filter-all">All Events</button>
+        <button class="filter-btn" data-filter="weddings" id="filter-weddings">Weddings</button>
+        <button class="filter-btn" data-filter="corporate" id="filter-corporate">Corporate</button>
+        <button class="filter-btn" data-filter="celebrations" id="filter-celebrations">Celebrations</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        <!-- Item 1: Image -->
+        <div class="gallery-item" data-category="weddings" data-type="image" data-src="assets/images/hero.png" id="gallery-item-1">
+          <img src="assets/images/P1.png" alt="Grand Golden Wedding Ballroom Decor">
+          <div class="gallery-overlay">
+            <span class="gallery-item-tag">Wedding Reception</span>
+            <h4 class="gallery-item-title">The Grand Ballroom</h4>
+            <div class="gallery-icon-view">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Image -->
+        <div class="gallery-item" data-category="corporate" data-type="image" data-src="assets/images/corporate.png" id="gallery-item-2">
+          <img src="assets/images/P5.png" alt="Elegant Corporate Gala Hall">
+          <div class="gallery-overlay">
+            <span class="gallery-item-tag">Corporate Gala</span>
+            <h4 class="gallery-item-title">Nikha</h4>
+            <div class="gallery-icon-view">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: Image -->
+        <div class="gallery-item" data-category="celebrations" data-type="image" data-src="assets/images/birthday.png" id="gallery-item-3">
+          <img src="assets/images/P8.png" alt="Pastel and Golden Birthday Layout">
+          <div class="gallery-overlay">
+            <span class="gallery-item-tag">Birthday Styling</span>
+            <h4 class="gallery-item-title">Chic Garden Dinner</h4>
+            <div class="gallery-icon-view">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4: Image -->
+        <div class="gallery-item" data-category="weddings" data-type="image" data-src="assets/images/traditional.png" id="gallery-item-4">
+          <img src="assets/images/t2.jpeg" alt="Luxury Ivory Wedding Mandap Stage">
+          <div class="gallery-overlay">
+            <span class="gallery-item-tag">Traditional Ceremony</span>
+            <h4 class="gallery-item-title">Royal Deco Setup</h4>
+            <div class="gallery-icon-view">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5: Video -->
+        <div class="gallery-item" data-category="weddings" data-type="video" data-src="https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c054ba27dca0d66d5e2d6b60098df4cb&profile_id=139&oauth2_token_id=57447761" id="gallery-item-5">
+          <img src="assets/images/t3.png" alt="Luxury event video teaser play">
+          <div class="video-badge" id="video-badge-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            Video Teaser
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-item-tag">Wedding Highlight Video</span>
+            <h4 class="gallery-item-title">Sparklers & Joy</h4>
+            <div class="gallery-icon-view">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6: Image -->
+        <div class="gallery-item" data-category="celebrations" data-type="image" data-src="assets/images/birthday.png" id="gallery-item-6">
+          <img src="assets/images/p6.png" alt="Luxurious Table arrangements for high-end socials">
+          <div class="gallery-overlay">
+            <span class="gallery-item-tag">Social Gathering</span>
+            <h4 class="gallery-item-title">Gold Accent Dinner</h4>
+            <div class="gallery-icon-view">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Documents Showcase Section --- -->
+  <section class="documents-section section-padding reveal" id="documents">
+    <div class="container">
+      <div class="doc-card" id="brochure-card">
+        <div class="doc-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+            <polyline points="10 9 9 9 8 9"/>
+          </svg>
+        </div>
+        <h3>Corporate & Wedding Brochure Catalog</h3>
+        <p>Explore our detailed event packages, bespoke decoration themes, planning terms, and custom quotation guides in our comprehensive services document. Perfect for planning ahead.</p>
+        <a href="assets/docs/Taj_Events_Brochure.txt" download="Taj_Events_Services_Brochure.txt" class="btn-classic" id="btn-download-brochure">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px; vertical-align: middle;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Catalog (.TXT)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Testimonials Section --- -->
+  <section class="testimonials section-padding reveal" id="reviews">
+    <div class="container">
+      <div class="section-title">
+        <h2>Client Love</h2>
+        <p>Heartwarming Reviews from Memorable Celebrations</p>
+        <div class="gold-line"></div>
+      </div>
+
+      <div class="slider-container" id="testimonial-slider">
+        <!-- Slide 1 -->
+        <div class="testimonial-slide active" data-index="0">
+          <div class="quote-icon">“</div>
+          <p class="testimonial-text">
+            "Taj Events made our dream wedding a reality! The stage looked like a fairytale, and the warm gold-ivory floral installations left our guests completely spellbound. The classic styling matched our taste perfectly, and their team was a joy to work with."
+          </p>
+          <div class="client-info">
+            <h4>Aishwarya & Karan</h4>
+            <p>Wedding Reception at The Royal Hall</p>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="testimonial-slide" data-index="1">
+          <div class="quote-icon">“</div>
+          <p class="testimonial-text">
+            "We hired Taj Events for our Annual Executive Gala and could not be more impressed. The layout was sleek, corporate yet rich, and the attention to table layouts and branding placement was flawless. Absolute professionals."
+          </p>
+          <div class="client-info">
+            <h4>Director of PR, V-Corp Tech</h4>
+            <p>Summit Dinner Gala</p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="testimonial-slide" data-index="2">
+          <div class="quote-icon">“</div>
+          <p class="testimonial-text">
+            "The garden birthday styling Taj Events did for our daughter's 21st was simply exquisite. The delicate combination of pastel florals, warm fairy lights, and gold cutlery created a magical garden ambiance. Will definitely book again!"
+          </p>
+          <div class="client-info">
+            <h4>Meera Sen</h4>
+            <p>Private Birthday Dinner Party</p>
+          </div>
+        </div>
+
+        <!-- Slider Dots -->
+        <div class="slider-dots">
+          <span class="dot active" data-index="0" id="dot-0"></span>
+          <span class="dot" data-index="1" id="dot-1"></span>
+          <span class="dot" data-index="2" id="dot-2"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Booking Inquiry & Contact Section --- -->
+  <section class="contact-section section-padding reveal" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Booking Form -->
+        <div class="booking-card">
+          <h3>Request a Consultation</h3>
+          <p>Tell us about your upcoming event, and let's craft an unforgettable layout together.</p>
+          
+          <form id="booking-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" class="form-control" placeholder="Jane Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" class="form-control" placeholder="jane@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" class="form-control" placeholder="+91 XXXXX XXXXX" required>
+              </div>
+              <div class="form-group">
+                <label for="event-date">Proposed Date *</label>
+                <input type="date" id="event-date" class="form-control" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="event-type">Event Type *</label>
+                <select id="event-type" class="form-control" required>
+                  <option value="" disabled selected>Select event category...</option>
+                  <option value="Wedding">Wedding / Engagement</option>
+                  <option value="Corporate">Corporate Conference / Gala</option>
+                  <option value="Birthday">Birthday Celebration</option>
+                  <option value="Traditional">Traditional Stage Ceremony</option>
+                  <option value="Other">Other Custom Celebration</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="guest-count">Expected Guest Count</label>
+                <input type="number" id="guest-count" class="form-control" placeholder="e.g., 250" min="10">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="requirements">Design Requirements / Themes</label>
+              <textarea id="requirements" class="form-control" placeholder="Tell us about your theme, preferred flowers, or color palette ideas..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-classic btn-solid" style="width: 100%; text-align: center;" id="btn-submit-booking">Send Consultation Request</button>
+            
+            <div id="form-status" class="form-status"></div>
+          </form>
+        </div>
+
+        <!-- Contact Info & Map -->
+        <div class="contact-info-panel">
+          <div>
+            <h3 class="contact-info-title">Reach Out to Us</h3>
+            <p style="margin-bottom: 2rem;">Our design atelier is open for visits by appointment. Get in touch to discuss details.</p>
+          </div>
+
+          <div class="info-block" id="info-block-phone">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="info-content">
+              <h4>Phone Consultations</h4>
+              <p>+91 70227 70401<br>+91 91081 79842</p>
+            </div>
+          </div>
+
+          <div class="info-block" id="info-block-email">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="info-content">
+              <h4>Digital Atelier</h4>
+              <p>tajevents0786@gmail.com<br></p>
+            </div>
+          </div>
+
+          <div class="info-block" id="info-block-address">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="info-content">
+              <h4>Atelier Address</h4>
+              <p>Infantry Road,Word No 25, Sc St Hostel,  Behind   Siddharth Nagar Ballari 583-104<br>Ballari, karnataka, India</p>
+            </div>
+          </div>
+
+          
+          <!-- Interactive Styled Map Placeholder -->
+          <div class="map-placeholder" id="atelier-map">
+            <div class="map-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/></svg>
+            </div>
+            <h4 style="font-family: var(--font-sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem;">ballari Atelier Location</h4>
+            <p style="font-size: 0.8rem; color: var(--color-gold-dark);">Click for directions on map</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Footer Section --- -->
+  <footer>
+    <div class="footer-grid">
+      <!-- Col 1: Brand -->
+      <div class="footer-brand">
+        <h3>TAJ EVENTS</h3>
+        <p>Creating luxury milestones and bespoke atmospheres across the country. Our focus on elegant, light-themed classic design sets us apart.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-icon" aria-label="Facebook Link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="Instagram Link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="Pinterest Link">
+            <!-- Pinterest Styled SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"/><path d="M7.5 10.5c.83 1.2 1.3 2.5 1.5 4v6.5c0 .3-.2.5-.5.5H5.8c-.3 0-.5-.2-.5-.5v-4.5c0-1-.3-1.8-1-2.5l-2.5-2.5c-.7-.7-.7-1.8 0-2.5L5 6c.7-.7 1.8-.7 2.5 0l2.5 2.5c.7.7.7 1.8 0 2.5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Col 2: Navigation Links -->
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#gallery">Gallery Portfolio</a></li>
+          <li><a href="#contact">Consultation Setup</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Business Hours -->
+      <div class="footer-col">
+        <h4>Business Hours</h4>
+        <div class="footer-hours">
+          <p><strong>Mon – Fri:</strong> 10:00 AM – 7:00 PM</p>
+          <p><strong>Saturday:</strong> 11:00 AM – 5:00 PM</p>
+          <p><strong>Sunday:</strong> Closed (Event Setup Only)</p>
+          <p style="margin-top: 1rem; font-style: italic; color: var(--color-gold-light); font-size: 0.8rem;">* Site visits require prior booking.</p>
+        </div>
+      </div>
+
+      <!-- Col 4: Newsletter -->
+      <div class="footer-col">
+        <h4>Sublime Updates</h4>
+        <p>Subscribe to receive luxury style guides and event inspiration files.</p>
+        <form class="newsletter-form">
+          <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Newsletter Email Input" required>
+          <button type="submit" class="btn-classic">Join</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bottom line -->
+    <div class="footer-bottom">
+      <div class="footer-copyright">
+        &copy; 2026 Taj Events & Decors. All Rights Reserved. Designed for Classic Celebrations.
+      </div>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- --- Lightbox Modal --- -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Media Preview Lightbox">
+    <div class="lightbox-content">
+      <button id="lightbox-close" class="lightbox-close" aria-label="Close Lightbox">&times;</button>
+      <img id="lightbox-img" src="" alt="Lightbox Preview Image" style="display: none;">
+      <video id="lightbox-video" controls style="display: none;"></video>
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Main Interaction Script -->
+  <script src="app.js"></script>
+</body>
+</html>
